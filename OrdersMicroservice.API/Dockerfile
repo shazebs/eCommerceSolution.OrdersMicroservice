@@ -32,4 +32,6 @@ ENV MONGO_PORT=27017
 ENV MONGO_DATABASE=OrdersDatabase
 ENV UsersMicroserviceName=localhost
 ENV UsersMicroservicePort=9090
+ENV ProductsMicroserviceName=localhost
+ENV ProducsMicroservicePort=8080
 ENTRYPOINT ["dotnet", "OrdersMicroservice.API.dll"]
